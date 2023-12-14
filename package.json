@@ -1,8 +1,6 @@
 {
   "author": "Garrett Stevens @garrettjstevens",
-  "bin": {
-    "oclif-yarn4": "./bin/run.js"
-  },
+  "bin": "./bin/run.js",
   "dependencies": {
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^5",
@@ -71,5 +69,6 @@
   ],
   "types": "dist/index.d.ts",
   "exports": "./lib/index.js",
-  "type": "module"
+  "type": "module",
+  "packageManager": "yarn@4.0.2"
 }

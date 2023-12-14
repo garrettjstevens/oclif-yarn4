@@ -10,3 +10,10 @@
 node_modules
 oclif.lock
 oclif.manifest.json
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
