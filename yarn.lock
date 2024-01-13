@@ -638,9 +638,10 @@ __metadata:
   linkType: hard
 
 "@oclif/core@npm:^3, @oclif/core@npm:^3.0.4, @oclif/core@npm:^3.10.2, @oclif/core@npm:^3.12.0, @oclif/core@npm:^3.3.1":
-  version: 3.13.1
-  resolution: "@oclif/core@npm:3.13.1"
+  version: 3.18.1
+  resolution: "@oclif/core@npm:3.18.1"
   dependencies:
+    "@types/cli-progress": "npm:^3.11.5"
     ansi-escapes: "npm:^4.3.2"
     ansi-styles: "npm:^4.3.0"
     cardinal: "npm:^2.1.1"
@@ -658,17 +659,16 @@ __metadata:
     js-yaml: "npm:^3.14.1"
     natural-orderby: "npm:^2.0.3"
     object-treeify: "npm:^1.1.33"
-    password-prompt: "npm:^1.1.2"
+    password-prompt: "npm:^1.1.3"
     slice-ansi: "npm:^4.0.0"
     string-width: "npm:^4.2.3"
     strip-ansi: "npm:^6.0.1"
     supports-color: "npm:^8.1.1"
     supports-hyperlinks: "npm:^2.2.0"
-    tsconfck: "npm:^3.0.0"
     widest-line: "npm:^3.1.0"
     wordwrap: "npm:^1.0.0"
     wrap-ansi: "npm:^7.0.0"
-  checksum: 9943a5bc1c6a6f1d55273df847089eae74b4e03deaca96a9b12ebef411fc9b4c14ebd4d583df3b5266f7cdc7cc76d348ea7be0f44e3e895107c7defd2cb0690b
+  checksum: cb1b65ebc47fd7cedc3b29ab723ba8a48ce3da9a7c0c1a0825d46ad3875698546ebadbd62441a3c5510d318e02b91821aaa2d3241c0d13a0e6597f7ae747884b
   languageName: node
   linkType: hard
 
@@ -1078,6 +1078,15 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: e95ef43e4a6b16bd233343fbff9798cdebded76f0c2f8a740a70bd4ce0608a804b489022765a00bb3447205536e5a032ba76a1a85bd1f050183c0196f91f3741
+  languageName: node
+  linkType: hard
+
+"@types/cli-progress@npm:^3.11.5":
+  version: 3.11.5
+  resolution: "@types/cli-progress@npm:3.11.5"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: bf00f543ee677f61b12e390876df59354943d6c13d96640171528e9b7827f4edb7701cdd4675d6256d13ef9ee542731bd5cae585e1b43502553f69fc210dcb92
   languageName: node
   linkType: hard
 
@@ -6854,6 +6863,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"password-prompt@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "password-prompt@npm:1.1.3"
+  dependencies:
+    ansi-escapes: "npm:^4.3.2"
+    cross-spawn: "npm:^7.0.3"
+  checksum: f6c2ec49e8bb91a421ed42809c00f8c1d09ee7ea8454c05a40150ec3c47e67b1f16eea7bceace13451accb7bb85859ee3e8d67e8fa3a85f622ba36ebe681ee51
+  languageName: node
+  linkType: hard
+
 "path-case@npm:^3.0.4":
   version: 3.0.4
   resolution: "path-case@npm:3.0.4"
@@ -8334,20 +8353,6 @@ __metadata:
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
   checksum: 95187932fb83f3901e22546bd2feeac7d2feb4f412f42ac3a595f049a23e8dcf70516dffb51866391228ea2dbcfaea039e250fb2bb334d48a86ab2b6aea0ae2d
-  languageName: node
-  linkType: hard
-
-"tsconfck@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "tsconfck@npm:3.0.0"
-  peerDependencies:
-    typescript: ^5.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  bin:
-    tsconfck: bin/tsconfck.js
-  checksum: 3614f52675b6c279c6e3d72f4dfdc8bb80c7b051e6d3227bcc67c6af9e8a4449a3eee9c6cf92b6720906bb32df03bc85830786fc7cf9ed3a9a98edb21b2ccc90
   languageName: node
   linkType: hard
 
